@@ -12,14 +12,12 @@ body {
 }
 
 .centered {
-    */ margin-left: 50px;
-    margin-right: 5opx;
-    */ padding: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
     border: 5px solid;
     margin: 0 auto 0 auto;
     width: 80%;
 
-    / * margin-left: 20px;
+    /* margin-left: 20px;
     margin-right: 20px;
 
     */
@@ -28,12 +26,6 @@ body {
 .diff-font {
     font-family: cursive
 }
-
-header nav {
-    flex: 1;*/
-    background: blue
-}
-
 
 /*
 header nav ul {
@@ -44,17 +36,9 @@ header nav ul {
 
 header nav li {
     list-style-type: none;
-    padding: lem;
+    padding: 10px;
 }
 
-a:hover [
+a:hover {
     color: #ec08ff
-]
-
-@media screen and (max-width: 30rem) {
-    header ,
-    main,
-    footer { 
-        flex-direction:column
-    }
 }
