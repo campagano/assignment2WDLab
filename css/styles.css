@@ -1,7 +1,7 @@
 body {
-    color: black;
+    color: blueviolet;
     background: white;
-    
+
     font-family: "Helvetica";
     font-size: 15px;
 }
@@ -12,23 +12,35 @@ body {
 }
 
 .centered {
-*/
-    margin-left: 50px;
+    */ margin-left: 50px;
     margin-right: 5opx;
-*/
-    padding: 10px 10px 10px 10px;
+    */ padding: 10px 10px 10px 10px;
     border: 5px solid;
     margin: 0 auto 0 auto;
     width: 80%;
 
-/ *
-    margin-left: 20px;
+    / * margin-left: 20px;
     margin-right: 20px;
-    
-*/ 
-}
-    .diff-font {
-        font-family: cursive
-    
-    }
 
+    */
+}
+
+.diff-font {
+    font-family: cursive
+}
+
+header nav {
+    flex: 1;*/
+    background: blue
+}
+
+
+header nav ul {
+    display: flex;
+    justify-cotent: flex-end;
+}
+
+header nav li {
+    list-style-type: none;
+    padding: lem;
+}
