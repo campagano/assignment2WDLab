@@ -1,6 +1,6 @@
 body {
     color: blueviolet;
-    background: white;
+    background: #54ff08;
 
     font-family: "Helvetica";
     font-size: 15px;
@@ -35,10 +35,12 @@ header nav {
 }
 
 
+/*
 header nav ul {
     display: flex;
     justify-cotent: flex-end;
 }
+*/
 
 header nav li {
     list-style-type: none;
