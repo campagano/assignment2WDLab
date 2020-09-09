@@ -1,6 +1,6 @@
 body {
-    color: blueviolet;
-    background: #54ff08;
+    color: rgb(43, 226, 226);
+    background: #000000;
 
     font-family: "Helvetica";
     font-size: 15px;
@@ -15,7 +15,7 @@ body {
     padding: 10px 10px 10px 10px;
     border: 5px solid;
     margin: 0 auto 0 auto;
-    width: 80%;
+    width: 20%;
 
     /* margin-left: 20px;
     margin-right: 20px;
