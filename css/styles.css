@@ -1,6 +1,6 @@
 body {
-    color: rgb(43, 226, 226);
-    background: #000000;
+    color: rgb(20, 20, 20);
+    background: #e7e7e7;
 
     font-family: "Helvetica";
     font-size: 15px;
@@ -13,7 +13,7 @@ body {
 
 .centered {
     padding: 10px 10px 10px 10px;
-    border: 5px solid;
+    border: 2px solid;
     margin: 0 auto 0 auto;
     width: 20%;
 
@@ -23,22 +23,36 @@ body {
     */
 }
 
+link {
+   align-items: center;
+}
+
+
 .diff-font {
     font-family: cursive;
 }
 
-/*
-header nav ul {
-    display: flex;
-    justify-cotent: flex-end;
-}
-*/
-
-header nav li {
-    list-style-type: none;
-    padding: 10px;
-}
-
 a:hover {
     color: #ec08ff
+}
+
+.flex-enabled {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-left: 1em;
+    margin-right: 1.4em;
+    white-space: nowrap;
+}
+
+nav {
+    margin-top: 31px;
+    margin-bottom: 31px;
+}
+.flex-right {
+    flex:1;
+    justify-content: flex-end;
+    align-items: center;
 }
